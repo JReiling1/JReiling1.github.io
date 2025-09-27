@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,48 +12,60 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000;;
+            background-color: #000;
+            ;
             color: white;
         }
+
         header {
             background-image: url('./assets/mt_fiji.jpg');
             background-size: cover;
-            background-position: center center; /* Centers the image horizontally and vertically */
+            background-position: center center;
+            /* Centers the image horizontally and vertically */
             text-align: center;
             padding: 100px 20px;
             color: white;
         }
+
         header h1 {
             font-size: 6em;
             margin: 20px 0 10px;
         }
+
         header h2 {
             font-size: 3em;
             margin-bottom: 40px;
         }
+
         main {
             padding: 20px;
             max-width: 1000px;
             margin: 20px auto;
         }
+
         section {
             margin-bottom: 40px;
         }
+
         h2 {
             color: #ffffff;
         }
+
         a {
             color: #ffffff;
             text-decoration: underline;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
         .cv-embed {
             width: 100%;
             height: 600px;
             border: none;
         }
+
         /* About me section with image to the right */
         .biography {
             display: flex;
@@ -60,17 +73,22 @@
             align-items: flex-start;
             gap: 20px;
         }
+
         .biography-text {
             flex: 3;
         }
+
         .biography img {
             flex: 1;
-            width: 150px; /* Allow image to keep its original dimensions */
+            width: 150px;
+            /* Allow image to keep its original dimensions */
             height: auto;
             object-fit: cover;
-            border-radius: 5px; /* Keep the original rectangular shape */
+            border-radius: 5px;
+            /* Keep the original rectangular shape */
             border: 4px solid white;
         }
+
         /* Contact block styles */
         .contact-blocks {
             display: flex;
@@ -78,6 +96,7 @@
             justify-content: space-between;
             gap: 20px;
         }
+
         .contact-block {
             background-color: #18453B;
             padding: 20px;
@@ -86,89 +105,124 @@
             flex: 1;
             min-width: 200px;
             transition: background-color 0.3s;
-            color: #fff; /* Set text color in contact blocks to white */
+            color: #fff;
+            /* Set text color in contact blocks to white */
         }
+
         .contact-block a {
             color: #fff;
             text-decoration: none;
             font-size: 1.2em;
         }
+
         .contact-block:hover {
             background-color: #ffffff;
             color: #000000;
         }
+
         .twitter-embed {
             max-width: 600px;
             margin: 0 auto;
         }
     </style>
 </head>
+
 <body>
 
-<!-- Header with background image and profile picture -->
-<header>
-    <h1>Jared Reiling</h1>
-    <h2>Computational Neuroscientist</h2>
-</header>
+    <!-- Header with background image and profile picture -->
+    <header>
+        <h1>Jared Reiling</h1>
+        <h2>Computational Neuroscientist</h2>
+    </header>
 
-<!-- Main content -->
-<main>
-    <!-- Biography Section -->
-    <section>
-        <h2>Biography:</h2>
-        <div class="biography">
-            <div class="biography-text">
-                <p>Jared is a computational neuroscientist dedicated to leveraging AI to unravel the complexities of human social interaction and pioneer innovative treatments for neurological disorders. 
-                    He is currently pursuing his Ph.D. at Michigan State University in the <a href="https://cmse.msu.edu/">Department of Computational Mathematics, Science, and Engineering</a> and a graduate research assistant 
-                    in the <a href="https://www.multiscalecomplexity.com/">Multiscale Complex Systems Laboratory</a>
-                    led by Dr. Mengsen Zhang. Jared loves harnessing computational sciences to innovate medical research to provide effective treatments for patients with neuropsychiatric disorders by understanding naturalistic behavior in 
-                    both humans and animals. 
-                    To expand the domain of his computational background to animal research, brain stimulation, and clinical settings, Jared joined the <a href="https://www.carolinaneurostimulation.org/">Carolina Center for Neurostimulation</a> at the 
-                    University of North Carolina at Chapel Hill (with Dr. Flavio Frohlich) during a summer internship in 2024.
-                    Jared is a recipient of the National Science Foundation's <a href="https://sites.google.com/msu.edu/nrtmsu/home">AI and Data-Enabled Multiscale Modeling Training Award</a>. 
-                    He holds a Bachelor of Arts degree from Augustana College in Rock Island, IL where he studied mathematics, 
-                    piano performance, and computer science. Outside of science, Jared loves playing the piano, hiking, rock climbing, and traveling.</p>
+    <!-- Main content -->
+    <main>
+        <!-- Biography Section -->
+        <section>
+            <h2>Biography:</h2>
+            <div class="biography">
+                <div class="biography-text">
+                    <p>Jared is a computational neuroscientist dedicated to leveraging AI to unravel the complexities of
+                        human social interaction and pioneer innovative treatments for neurological disorders.
+                        He is currently pursuing his Ph.D. at Michigan State University in the <a
+                            href="https://cmse.msu.edu/">Department of Computational Mathematics, Science, and
+                            Engineering</a> and a graduate research assistant
+                        in the <a href="https://www.multiscalecomplexity.com/">Multiscale Complex Systems Laboratory</a>
+                        led by Dr. Mengsen Zhang. Jared loves harnessing computational sciences to innovate medical
+                        research to provide effective treatments for patients with neuropsychiatric disorders by
+                        understanding naturalistic behavior in
+                        both humans and animals.
+                        To expand the domain of his computational background to animal research, brain stimulation, and
+                        clinical settings, Jared joined the <a href="https://www.carolinaneurostimulation.org/">Carolina
+                            Center for Neurostimulation</a> at the
+                        University of North Carolina at Chapel Hill (with Dr. Flavio Frohlich) during a summer
+                        internship in 2024.
+                        Jared is a recipient of the National Science Foundation's <a
+                            href="https://sites.google.com/msu.edu/nrtmsu/home">AI and Data-Enabled Multiscale Modeling
+                            Training Award</a>.
+                        He holds a Bachelor of Arts degree from Augustana College in Rock Island, IL where he studied
+                        mathematics,
+                        piano performance, and computer science. Outside of science, Jared loves playing the piano,
+                        hiking, rock climbing, and traveling.</p>
+                </div>
+                <img src="./assets/Profile_Picture.jpg" alt="Profile Picture">
             </div>
-            <img src="./assets/Profile_Picture.jpg" alt="Profile Picture">
-        </div>
-    </section>
+        </section>
 
-    <!-- CV Section -->
-    <section>
-        <h2>Curriculum Vitae:</h2>
-        <p>You can download my CV directly <a href="./Jared A. Reiling_CV.pdf">here</a> or view it embedded below:</p>
-        <embed src="./Jared A. Reiling_CV.pdf" class="cv-embed" />
-    </section>
+        <!-- Publicaitons Section -->
+        <section>
+            <h2>Publications:</h2>
+            <div class="biography">
+                <div class="biography-text">
+                    <p>Ross, G., Huang, A. W., <b>Reiling, J.</b>, Zhang, M., Park, J., Radtke-Schuller, S., ...
+                        Fröhlich, F.
+                        Switching state to engage and sustain attention: dynamic synchronization of the frontoparietal
+                        network. Progress in Neurobiology. 2025. 0301-0082. doi: 10.1016/j.pneurobio.2025.102777.[<a
+                            href="./switching_state_to_engage_and_sustain_attention-_dynamic_synchronization_of_the_frontoparietal_network.pdf">
+                            pdf </a>]
+                </div>
+            </div>
+        </section>
+
+        <!-- CV Section -->
+        <section>
+            <h2>Curriculum Vitae:</h2>
+            <p>You can download my CV directly <a href="./Jared A. Reiling_CV.pdf">here</a> or view it embedded below:
+            </p>
+            <embed src="./Jared A. Reiling_CV.pdf" class="cv-embed" />
+        </section>
 
 
 
 
-    <!-- Contact Section with clickable blocks -->
-    <section>
-        <h2>Contact:</h2>
-        <div class="contact-blocks">
-            <div class="contact-block">
-                <a href="https://www.linkedin.com/in/jared-reiling-593280195/" target="_blank">LinkedIn</a>
+        <!-- Contact Section with clickable blocks -->
+        <section>
+            <h2>Contact:</h2>
+            <div class="contact-blocks">
+                <div class="contact-block">
+                    <a href="https://www.linkedin.com/in/jared-reiling-593280195/" target="_blank">LinkedIn</a>
+                </div>
+                <div class="contact-block">
+                    <a href="https://github.com/JReiling1/" target="_blank">GitHub</a>
+                </div>
+                <div class="contact-block">
+                    <a href="https://www.multiscalecomplexity.com/" target="_blank">Lab Website</a>
+                </div>
+                <div class="contact-block">
+                    <a href="mailto:reiling1@msu.edu">Email: reiling1@msu.edu</a>
+                </div>
+                <div class="contact-block">
+                    <a href="https://x.com/Jared_Reiling_" target="_blank">Twitter(X): @Jared_Reiling_</a>
+                </div>
+                <div class="contact-block">
+                    <span>Address: 1515 Engineering Building 428 South Shaw Lane Engineering Building, East Lansing, MI
+                        48824</span>
+                </div>
             </div>
-            <div class="contact-block">
-                <a href="https://github.com/JReiling1/" target="_blank">GitHub</a>
-            </div>
-            <div class="contact-block">
-                <a href="https://www.multiscalecomplexity.com/" target="_blank">Lab Website</a>
-            </div>
-            <div class="contact-block">
-                <a href="mailto:reiling1@msu.edu">Email: reiling1@msu.edu</a>
-            </div>
-            <div class="contact-block">
-                <a href="https://x.com/Jared_Reiling_" target="_blank">Twitter(X): @Jared_Reiling_</a>
-            </div>
-            <div class="contact-block">
-                <span>Address: 1515 Engineering Building 428 South Shaw Lane Engineering Building, East Lansing, MI 48824</span>
-            </div>
-        </div>
-    </section>
+        </section>
 
-</main>
+    </main>
 
 </body>
+
 </html>
